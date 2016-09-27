@@ -1,0 +1,25 @@
+program to print the values of the following calculations
+
+ublic class calculation {
+	public static void main(String[] args) 
+	{
+		int a=20,b=10;
+		int check=a--;
+		int check1=--a;
+		System.out.println("value of a--:" +check);
+		System.out.println("value of --a:" +check1);
+		
+		b=(a--) - (--a);
+		
+		System.out.println("value of b is:" +b);
+		int c=a--;
+		System.out.println("value of c is:" +c);
+		
+		int d=a>>2;
+		System.out.println("value of d is:" +d);
+		
+		int e=a&b;
+		System.out.println("value of e is:" +e);
+	}
+
+}
